@@ -13,5 +13,9 @@ namespace SDProject_1.Pages
         {
 
         }
+        protected void buttonCreateFacility_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Facilities.aspx");
+        }
     }
 }
